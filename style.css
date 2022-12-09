@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Chakra+Petch&family=Klee+One:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Cinzel:wght@600&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Cinzel:wght@600&family=Satisfy&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+.sidebar{
+    background-color: rgb(227, 220, 220);
+    width: 380px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 120vh;
+    
+    
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 30px 0;  /* padding is for top bottom = 30px and left right =0 */
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+
+.main{
+    /*background-color: coral;*/
+    width:85vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /*background-color: rgb(235, 221, 221);*/
+    width: 80vw;
+    height: 65vh;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.devPic img{
+    width:283px;
+    height: 480px;   /*480*/
+    border-radius: 50px;
+    border-style:solid;
+    border-color: rgb(132, 124, 124);
+ 
+}
+
+.hello{
+    font-size: 60px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+}
+
+.myinfo{
+    font-size: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 20px;
+}
+
+.buttons{
+    margin:40px;
+    margin-left: 0;
+}
+.buttons button{
+    padding: 10px 14px ;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: dodgerblue;
+    margin-right: 15px;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+
+}
+
+.contactform{
+    font-family: 'Source Serif Pro', serif;
+    padding: 0 40px;
+    padding-top: 100px;
+    background-color: rgb(173, 169, 169);
+    height: 90vh;
+    
+}
+
+.contactform h1{
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    border: 3px black dotted;
+   /*border-bottom: 3px black dotted; */
+    font-weight: 30px;
+    padding: 3px;
+}
+
+.contactform form div{
+    padding: 17px 0 ;
+    display: flex;
+    flex-direction: column;
+}
+#help{
+    padding-top: 0;
+    font-size: 12px;
+    margin-left: 30px;
+    color: rgb(30, 30, 135);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contactform div input{
+    width:20vw;
+    border-radius: 20px;
+    margin: 5px 0 0 0;
+    padding: 5px;
+    
+}
+ #radbtn{
+   flex-direction: row ;
+   width: 15vw;
+ }
+
+.btns{
+    padding: 8px 10px ;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: dodgerblue;
+    margin-right: 15px;
+    margin-left: 0;
+    cursor: pointer;
+    width: 10vw;
+    margin-top: 15px;
+}
+
+.btns button:hover{
+    color:dodgerblue;
+    background-color: white;
+}
+
+/*.blogcontainer{
+
+}*/
+
+.blogcontainer h1{
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    margin: 10px;
+    color: cornflowerblue;
+    font-size: 35px;
+    
+
+}
+
+.blogitem{
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.blogitem h2{
+
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 3px;
+
+}
+
+.blogitem p{
+    font-family: 'Klee One', cursive;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+.intro h2{
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 15px;
+    text-decoration: underline;
+}
+
+.intro p{
+    font-family: 'Klee One', cursive;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skillcontainer li{
+    list-style: none;
+    margin: 5px;
+    margin-left: 15px;
+    padding: 3px;
+    font-family: 'Klee One', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.proj{
+    font-family: 'Klee One', cursive;
+    font-size: 30px;
+    font-weight: 25px;
+}
+
+.pro h1{
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 25px;
+   margin-top: 80px;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 50px;
+    color:rgb(83, 35, 45)
+}
+
+.profilebuttons{
+    margin-top: 200px;
+    margin-left: 280px;
+}
+
+
+.profilebuttons button{
+    padding: 10px 14px ;
+    border-radius: 25px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(133, 228, 133);
+    margin-right: 55px;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+.profilebuttons button:hover{
+    color: rgb(133, 228, 133);
+    background-color: rgb(52, 47, 47)
+}
+
